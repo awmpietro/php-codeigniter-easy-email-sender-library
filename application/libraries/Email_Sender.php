@@ -24,8 +24,8 @@ class Send_email{
 		);
 		$this->ci->email->initialize($config);
 		$this->ci->email->set_newline("\r\n");
-		$this->ci->email->from($this->ci->config->item('smtp_user'), $user_data['sender']));
-		$this->ci->email->to($user_data['email']);
+		$this->ci->email->from($this->ci->config->item('smtp_user'), $user_data['sender_name']));
+		$this->ci->email->to($user_data['dest_email']);
 		$this->ci->email->subject($user_data['subject']);
 		$this->data = $email_data;
 		$c['content'] = $this->ci->load->view("emails/{$template}", $this->data, true);
