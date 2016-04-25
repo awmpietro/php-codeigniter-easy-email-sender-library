@@ -12,9 +12,9 @@ class Example extends CI_Controller {
 		* 1 - Create an array with the email address of dest, email subject and email name of the sender, just like this:
 		*/
 		$user_data = array(
-			'email' => 'johndoe@gmail.com', 
+			'dest_email' => 'johndoe@gmail.com', 
 			'subject' => 'Email Test',
-			'title' => "John Doe"
+			'sender_name' => "John Doe"
 		);
 		/**
 		* 2 - Create an array with the data you want to have access in email template, just like this:
