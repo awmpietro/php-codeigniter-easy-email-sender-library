@@ -13,14 +13,14 @@ class Example extends CI_Controller {
 		*/
 		$user_data = array(
 			'email' => 'johndoe@gmail.com', 
-			'assunto' => 'Email Test',
+			'subject' => 'Email Test',
 			'title' => "John Doe"
 		);
 		/**
 		* 2 - Create an array with the data you want to have access in email template, just like this:
 		*/
 		$email_data = array(
-			'nome' => 'My Dest User', 
+			'name' => 'My Dest User', 
 			'link' => 'A link to send to user'
 		);
 		/**
