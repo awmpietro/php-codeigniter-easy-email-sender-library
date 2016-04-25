@@ -1,5 +1,5 @@
-# Easy Email Sending Library using templates, for CodeIgniter<br/><br/>
-I create this library to make easier sending emails using templates, with CodeIgniter<br/><br/>
+# Email sender library using templates, for CodeIgniter<br/><br/>
+I create this library to make easier send emails using templates, with CodeIgniter<br/><br/>
 1 - Copy files to respective folders (application/config, application/libraries, application/views) <br/><br/>
 2 - In application/config/email_sender.php fill the data with your configuration. In the example i use a Zoho Mail configuration.<br/><br/>
 3 - Follow the example in application/controllers/Example.php how to use the library<br/><br/>
